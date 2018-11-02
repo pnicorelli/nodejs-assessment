@@ -29,19 +29,22 @@ npm test
 
 this command should show:
 
-> Caesar encryption:
->   1) should have encrypt a text using Caesar Algorithm
->   2) should encrypt a text using Caesar Algorithm
->   3) should decrypt a text with Caesar Algorithm
->
-> Vigenere encryption:
->   4) should have encrypt a text using Caesar Algorithm
->   5) should encrypt a text using Vigenere Algorithm
->   6) should decrypt a text with Vigenere Algorithm
->
->
-> 0 passing (7ms)
-> 6 failing
+```
+
+  Caesar encryption:
+    1) should have encrypt a text using Caesar Algorithm
+    2) should encrypt a text using Caesar Algorithm
+    3) should decrypt a text with Caesar Algorithm
+
+  Vigenere encryption:
+    4) should have encrypt a text using Caesar Algorithm
+    5) should encrypt a text using Vigenere Algorithm
+    6) should decrypt a text with Vigenere Algorithm
+
+
+  0 passing (7ms)
+  6 failing
+```
 
 
 then you can open your $favoriteEditor and fix those tests :)
