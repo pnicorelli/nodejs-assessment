@@ -8,8 +8,10 @@ const cypher = require('../index');
 describe('Vigenere encryption:', ()=>{
 
   it('should have encrypt a text using Caesar Algorithm', function(){
-    expect( typeof cypher.vigenere.encrypt, 'function' );
-    expect( typeof cypher.vigenere.decrypt, 'function' );
+    let enc = typeof cypher.vigenere.encrypt;
+    let dec = typeof cypher.vigenere.decrypt;
+    enc.should.equal('function')
+    dec.should.equal('function')
   });
 
   it('should encrypt a text using Vigenere Algorithm', function(){

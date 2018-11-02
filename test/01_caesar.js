@@ -7,8 +7,10 @@ const cypher = require('../index');
 describe('Caesar encryption:', ()=>{
 
   it('should have encrypt a text using Caesar Algorithm', function(){
-    expect( typeof cypher.caesar.encrypt, 'function' );
-    expect( typeof cypher.caesar.decrypt, 'function' );
+    let enc = typeof cypher.caesar.encrypt;
+    let dec = typeof cypher.caesar.decrypt;
+    enc.should.equal('function')
+    dec.should.equal('function')
   });
 
   it('should encrypt a text using Caesar Algorithm', function(){
