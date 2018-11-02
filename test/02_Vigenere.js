@@ -18,7 +18,7 @@ describe('Vigenere encryption:', ()=>{
   });
 
   it('should decrypt a text with Vigenere Algorithm', function(){
-    let result = cypher.vigenere.encrypt('llkj ml k wgetnv qxcwyyi', 'secret key');
+    let result = cypher.vigenere.decrypt('llkj ml k wgetnv qxcwyyi', 'secret key');
     result.should.equal('this is a simple message');
   });
 });

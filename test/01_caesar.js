@@ -17,7 +17,7 @@ describe('Caesar encryption:', ()=>{
   });
 
   it('should decrypt a text with Caesar Algorithm', function(){
-    let result = cypher.caesar.encrypt('ftue ue m euybxq yqeemsq', 12);
+    let result = cypher.caesar.decrypt('ftue ue m euybxq yqeemsq', 12);
     result.should.equal('this is a simple message');
   });
 });
