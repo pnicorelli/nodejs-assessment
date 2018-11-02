@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha",
+    "pack": "tar -czf $(whoami).tar.gz --exclude '.git' --exclude 'node_modules' *"
   },
   "author": "p.nicorelli@gmail.com",
   "license": "ISC",
